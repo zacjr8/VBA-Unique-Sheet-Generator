@@ -11,7 +11,7 @@ Sub SeparateDuplicatesIntoSheets()
     Dim i As Long
 
     ' Set the worksheet and range
-    Set ws = ThisWorkbook.Sheets("All Sections") ' Change to your sheet name
+    Set ws = ThisWorkbook.Sheets("Sheet1") ' Change to your sheet name
     lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
     Set dataRange = ws.Range("A1:A" & lastRow)
 
